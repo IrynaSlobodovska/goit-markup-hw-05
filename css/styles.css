@@ -146,6 +146,14 @@ section {
 .page-main {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .page-main-title {
@@ -211,6 +219,17 @@ section {
   width: calc((100% - 72px) / 4);
 }
 
+.page-aside-box {
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 100%;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .page-aside-list {
   display: flex;
   align-items: center;
@@ -264,6 +283,44 @@ section {
   list-style: none;
   gap: 24px;
   row-gap: 48px;
+}
+
+.Portfolio-img-over {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-text {
+  max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 250ms ease-in-out;
+  transform: translateY(100%);
+}
+
+.portfolio-item:focus,
+.portfolio-item:hover .overlay {
+  transform: translateY(0);
+  background-color: #4d5ae5;
+}
+.portfolio-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 /* ------ page-aside Portfolio-----*/
 
@@ -321,6 +378,24 @@ section {
   margin-bottom: 72px;
 }
 
+.team-contacts .icon-team {
+  fill: #f4f4fd;
+}
+
+.team-contacts .team-link-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+}
+
+.team-contacts-icons {
+  width: calc((100% - 72px) / 4);
+}
 /* ------ team -----*/
 
 /* --------FOOTER --------*/
@@ -351,4 +426,14 @@ section {
   margin-bottom: 16px;
 }
 
+.footer-contact .footer-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+}
 /* --------FOOTER --------*/
