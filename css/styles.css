@@ -617,12 +617,23 @@ input::placeholder {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
+  padding: 72px 24px 24px 24px;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrob:not(.is-open) .modal {
   transform: translate(-50%, -100%);
+}
+
+.modal-backdrob-name {
+  margin-bottom: 8px;
+}
+
+.modal-lab {
+  line-height: 1.17;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .modal-icon {
@@ -663,7 +674,6 @@ input::placeholder {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 72px;
   margin-bottom: 16px;
 }
 
