@@ -474,13 +474,14 @@
               class="footer-subs-inp"
               type="email"
               name="email"
-              placeholder="E-mail" />
-            <button type="button" class="footer-subs-btn">
-              Subscribe
-              <svg class="footer-subs-icon" width="24" heigth="24">
-                <use href="./images/icons.svg#icon-Frame-3"></use>
-              </svg></button
-          ></label>
+              placeholder="E-mail"
+            /> </label
+          ><button type="submit" class="footer-subs-btn">
+            Subscribe
+            <svg class="footer-subs-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+          </button>
           <!-- </form> -->
         </div>
       </div>
@@ -489,7 +490,7 @@
     <div class="backdrob is-open">
       <div class="modal">
         <button type="button" class="modal-icon">
-          <svg class="modal-icon-link" width="8" heigth="8">
+          <svg class="modal-icon-l" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -497,51 +498,55 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-backdrob">
-          <label for="name">Name</label
-          ><input
-            class="modal-backdrob-inp"
-            type="text"
-            name="contacts"
-            id="name"
-            required
-          />
-
-          <label for="phone">Phone</label
-          ><input
-            class="modal-backdrob-inp"
-            type="tel"
-            name="contacts"
-            id="phone"
-            required
-          />
-
-          <label for="email">Email</label
-          ><input
-            class="modal-backdrob-inp"
-            type="email"
-            name="contacts"
-            id="email"
-            required
-          />
-
-          <label for="comment"
-            >Comment<input
-              class="modal-backdrob-com"
+          <div class="modal-backdrob-name">
+            <label for="name">Name</label
+            ><input
+              class="modal-backdrob-inp"
               type="text"
               name="contacts"
-              placeholder="Text input"
-              id="comment"
-          /></label>
+              id="name"
+              required
+            />
+          </div>
+          <div class="modal-backdrob-phon">
+            <label for="phone">Phone</label
+            ><input
+              class="modal-backdrob-inp"
+              type="tel"
+              name="contacts"
+              id="phone"
+              required
+            />
+          </div>
+          <div class="modal-backdrob-email">
+            <label for="email">Email</label
+            ><input
+              class="modal-backdrob-inp"
+              type="email"
+              name="contacts"
+              id="email"
+              required
+            />
+          </div>
+          <div class="modal-backdrob-comen">
+            <label for="comment"
+              >Comment<input
+                class="modal-backdrob-com"
+                type="text"
+                name="contacts"
+                placeholder="Text input"
+                id="comment"
+            /></label>
+          </div>
 
-          <label
-            ><input type="checkbox" name="" value="" />
-            <p class="modal-backdrob-text">
+          <div class="modal-backdrob-polic">
+            <input type="checkbox" name="contacts" id="polc" />
+            <label class="pilic-lab" for="polc">
               I accept the terms and conditions of the
               <a href="" class="backdrob-polic">Privacy Policy</a>
-            </p>
-          </label>
-
-          <button type="button" class="backdrob-btn">Send</button>
+            </label>
+          </div>
+          <button type="submit" class="backdrob-btn">Send</button>
         </form>
       </div>
     </div>
