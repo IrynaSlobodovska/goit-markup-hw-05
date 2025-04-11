@@ -793,11 +793,15 @@ input::placeholder {
   letter-spacing: 0.04em;
   color: #8e8f99;
   a {
-    line-height: 1.33333;
+    line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
   }
+}
+
+.backdrob-polis {
+  color: #4d5ae5;
 }
 
 .modal-backdrob-polis {
