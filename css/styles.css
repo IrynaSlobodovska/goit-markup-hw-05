@@ -643,6 +643,11 @@ input::placeholder {
   margin-bottom: 8px;
 }
 
+.modal-backdrob-comen {
+  width: 360px;
+  margin-bottom: 16px;
+}
+
 .modal-lab {
   line-height: 1.17;
   display: block;
@@ -792,15 +797,12 @@ input::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  a {
-    line-height: 1.33;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #4d5ae5;
-  }
 }
 
 .backdrob-polis {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
 
