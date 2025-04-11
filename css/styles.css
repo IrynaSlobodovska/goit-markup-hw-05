@@ -639,8 +639,8 @@ input::placeholder {
 }
 
 .modal-backdrob-name {
-  margin-bottom: 16px;
   width: 360px;
+  margin-bottom: 8px;
 }
 
 .modal-lab {
