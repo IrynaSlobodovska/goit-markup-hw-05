@@ -559,17 +559,16 @@ section {
 
 .footer-subs-inp {
   border: 1px solid #ffffff;
-  background-color: transparent;
   padding-left: 16px;
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
@@ -695,6 +694,7 @@ input::placeholder {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-backdrob {
@@ -732,13 +732,6 @@ input::placeholder {
 
 .modal-backdrob-inp:focus + .modal-icons {
   fill: #4d5ae5;
-}
-
-.backdrob-polic {
-  line-height: 1.33333;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #4d5ae5;
 }
 
 .modal-backdrob-com {
@@ -793,11 +786,46 @@ input::placeholder {
   background-color: #404bbf;
 }
 
-.modal-backdrob-polic {
+.modal-polis-lab {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  a {
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+  }
+}
+
+.modal-backdrob-polis {
   margin-bottom: 24px;
 }
 
-/* .visually-hidden {
-  line-height: 1.17;
-} */
+span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modam-polis:checked + .modal-polis-lab span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.modal-polisbox-sv {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* -------backdrob-------- */
