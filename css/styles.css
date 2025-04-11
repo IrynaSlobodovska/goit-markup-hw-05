@@ -506,7 +506,7 @@ section {
 }
 
 .footer-subs {
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 .footer-subs-text {
@@ -516,7 +516,6 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  /* padding-bottom: 24px; */
 }
 
 .footer-subs-form {
@@ -539,7 +538,6 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -570,7 +568,6 @@ section {
   color: #fff;
   background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .footer-subs-lbl {
@@ -583,7 +580,6 @@ input::placeholder {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  /* padding-left: 18px; */
 }
 
 .footer-subs-inp:hover,
@@ -708,12 +704,6 @@ input::placeholder {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  max-width: 360px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: flex-start;
-  margin: auto;
 }
 
 .modal-icon-l {
@@ -813,7 +803,7 @@ input::placeholder {
   margin-bottom: 24px;
 }
 
-span {
+.modal-polisbox {
   width: 16px;
   height: 16px;
   border-radius: 2px;
