@@ -479,11 +479,6 @@ section {
   gap: 16px;
 }
 
-/* .footer-social-icons {
-  width: 40px;
-  height: 40px;
-} */
-
 .footer-link-icon {
   border-radius: 50%;
   display: flex;
@@ -520,7 +515,6 @@ section {
 
 .footer-subs-form {
   display: flex;
-  gap: 24px;
 }
 
 .footer-subs-icon {
